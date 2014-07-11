@@ -18,4 +18,4 @@ class OutlineTile(Tile):
 
 
     def __repr__(self):
-        return '{} {} {} {}'.format(self.isSelected,self.x,self.y,self.h)
+        return 'x:{} y:{} w:{} h:{}'.format(self.isSelected,self.x,self.y,self.h)

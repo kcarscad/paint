@@ -20,6 +20,5 @@ class ShapeTile(Tile):
         self.isSelected=s
 
     def __repr__(self):
-        s = 'shape:{}, x:{}, y:{}, w:{}, h:{}, selected:{}'\
+        return 'shape:{}, x:{}, y:{}, w:{}, h:{}, selected:{}' \
             .format(self.shape,self.x,self.y,self.w,self.h,self.isSelected)
-        return s

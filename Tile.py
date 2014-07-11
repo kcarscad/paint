@@ -25,3 +25,5 @@ class Tile(object):
             clicked=True
         return clicked
 
+    def __repr__(self):
+    	return 'x:{} y:{} w:{} h:{} isSelected:{}'.format(self.x,self.y,self.w,self.h,self.isSelected)

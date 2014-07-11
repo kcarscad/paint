@@ -16,6 +16,5 @@ class ColorTile(Tile):
         return 'colortile'
 
     def __repr__(self):
-        s = 'c:{}, x:{}, y:{}, w:{}, h:{}, selected:{}'\
+        return 'c:{}, x:{}, y:{}, w:{}, h:{}, selected:{}' \
             .format(self.clr,self.x,self.y,self.w,self.h,self.isSelected)
-        return s
