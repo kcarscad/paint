@@ -5,8 +5,7 @@ Paint program I created in a week or so for a school project
 
 Python 3.2, pygame 
 
-###Features
-============
+##Features
 
 * Left-click to draw individual shapes at selected size
 * Right-click and drag to draw shapes of custom size
