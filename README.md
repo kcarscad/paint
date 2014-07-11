@@ -10,7 +10,7 @@ Features
 
 * Left-click to draw individual shapes at selected size
 * Right-click and drag to draw shapes of custom size
-* 
+
 * 20 pre-picked colors, with the option of creating your own using RGB sliders
 * Ability to change size of shapes
 * Circle, square, or triangle shaped brush, as well as line drawing
