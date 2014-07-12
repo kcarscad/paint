@@ -20,10 +20,9 @@ class Tile(object):
         return [self.x,self.y,self.w,self.h]
 
     def clicked(self,x,y):
-        clicked=False
         if self.x <= x <= self.x+self.w and self.y <= y <= self.y+self.h:
-            clicked=True
-        return clicked
+            return True
+        return False
 
     def __repr__(self):
     	return 'x:{} y:{} w:{} h:{} isSelected:{}'.format(self.x,self.y,self.w,self.h,self.isSelected)
